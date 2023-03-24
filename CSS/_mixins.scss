@@ -1,0 +1,29 @@
+//mixins//
+
+@mixin nospace {
+    margin: 0;
+    padding: 0;
+  }
+
+@mixin borderradius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@mixin mainrow {
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+}
+
+@mixin maingap {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+/*no longer necessary
+@mixin figureborder {
+    border-top-left-radius: $imgradius;
+    border-top-right-radius: $imgradius;
+    border-radius: $imgradius;
+}*/
+  

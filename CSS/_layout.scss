@@ -1,0 +1,45 @@
+/*body {
+    font-family: $mainfont;
+  }*/
+  
+  html {
+    box-sizing: border-box;
+  }
+
+  *,*::before, *::after{
+    box-sizing: inherit;
+  }
+  
+  /*added font-size and main font variable below*/
+  body {
+    background-color: $navbckgrcolor;
+    @include nospace;
+    font-family: $mainfont;
+    line-height: 2;
+  }
+  
+  h1, h2, h3 {
+    font-family: $titlefont;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* make images flexible */
+  img {
+    max-width: 100%;
+  }
+
+  a {
+    color: $buttonhover;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  header {
+    border-bottom: $imgradius solid $bordercolor;
+  }
+  

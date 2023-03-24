@@ -1,0 +1,37 @@
+/* establishes a white background, also added main color variable*/
+.main-bkgd {
+    background: $bodybckgrcolor url(../Media/images/gulp-bottom-beans.jpg) repeat-x bottom;
+    padding-bottom: 300px;
+  }
+
+/* sits inside of the white background, centered */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  article {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  
+  figure {
+    margin: 3rem 0 0 0;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    }
+  
+  img {
+    margin: 3rem 0 0 0;
+    flex-basis: 25%;
+    border-radius: $imgradius;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+  
+  
+  

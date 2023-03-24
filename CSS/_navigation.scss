@@ -1,0 +1,57 @@
+  nav {
+    margin: 0 1rem;
+  
+    ul {
+    @include nospace;
+    list-style-type: none;
+   }
+  
+    a {
+    font-size: 1.5rem;
+    color: $bodybckgrcolor;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 1rem 1rem 2rem 1rem;
+    text-align: center;
+    } 
+  
+    .logo img {
+    max-width: 200px;
+      }
+  
+    .logo {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0;
+    }
+  
+    .logo a {
+    margin: 0;
+    }
+  
+    a:hover {
+    color: $linkhover;
+  }
+}
+
+    footer {
+    color: $navlinkcolor;
+    text-align: center;
+    padding: 2rem;
+  
+    ul {
+    list-style-type: none;
+    @include nospace;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+    a {
+    color: $bodybckgrcolor;
+    font-size: 2rem;
+    display: block;
+    margin: 0 1rem 3rem 1rem;
+  }
+}
